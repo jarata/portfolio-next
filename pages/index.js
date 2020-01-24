@@ -1,11 +1,11 @@
-// import resume from '../data/resume'
+import Layout from "../components/Layout";
 
 const Index = () => {
-	console.log("Test");
+	console.log("Index:");
 	return (
-		<div>
-			Index!
-		</div>
+		<Layout>
+			Index
+		</Layout>
 	)
 };
 
