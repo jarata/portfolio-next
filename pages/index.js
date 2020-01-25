@@ -1,10 +1,20 @@
+import 'isomorphic-unfetch';
+
 import Layout from "../components/Layout";
 
-const Index = () => {
-	console.log("Index:");
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Contact from "../components/Contact";
+import Projects from "../components/Projects";
+
+const Index = (props) => {
+	console.log("Index:", props);
 	return (
 		<Layout>
-			Index
+			<About />
+			<Skills />
+			<Projects />
+			<Contact />
 		</Layout>
 	)
 };
