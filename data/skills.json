@@ -1,0 +1,34 @@
+[
+  {
+    "language": "HTML",
+    "website": "https://whatwg.org/"
+  },
+  {
+    "language": "CSS",
+    "website": "https://www.w3.org/Style/CSS/"
+  },
+  {
+    "language": "Less",
+    "website": "http://lesscss.org/"
+  },
+  {
+    "language": "JavaScript",
+    "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "language": "React",
+    "website": "https://reactjs.org/"
+  },
+  {
+    "language": "Node",
+    "website": "https://nodejs.org/en/"
+  },
+  {
+    "language": "Python",
+    "website": "https://www.python.org/"
+  },
+  {
+    "language": "Git",
+    "website": "https://git-scm.com/"
+  }
+]
