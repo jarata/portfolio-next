@@ -2,12 +2,12 @@
   {
     "language": "HTML",
     "website": "https://whatwg.org/",
-    "logo": "/html_logo.png"
+    "logo": "/html5_logo.png"
   },
   {
     "language": "CSS",
     "website": "https://www.w3.org/Style/CSS/",
-    "logo": "/css_logo.png"
+    "logo": "/css3_logo.png"
   },
   {
     "language": "Less",
