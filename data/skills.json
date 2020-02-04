@@ -2,41 +2,41 @@
   {
     "language": "HTML",
     "website": "https://whatwg.org/",
-    "logo": "/html5_logo.png"
+    "logo": "/html5_logobw.png"
   },
   {
     "language": "CSS",
     "website": "https://www.w3.org/Style/CSS/",
-    "logo": "/css3_logo.png"
+    "logo": "/css3_logobw.png"
   },
   {
     "language": "Less",
     "website": "http://lesscss.org/",
-    "logo": "/less_logo.png"
+    "logo": "/less_logobw.png"
   },
   {
     "language": "JavaScript",
     "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    "logo": "/js_logo.png"
+    "logo": "/js_logobw.png"
   },
   {
     "language": "React",
     "website": "https://reactjs.org/",
-    "logo": "/reactjs_logo.png"
+    "logo": "/reactjs_logobw.png"
   },
   {
     "language": "Node",
     "website": "https://nodejs.org/en/",
-    "logo": "/nodejs_logo.png"
+    "logo": "/nodejs_logobw.png"
   },
   {
     "language": "Python",
     "website": "https://www.python.org/",
-    "logo": "/python_logo.png"
+    "logo": "/python_logobw.png"
   },
   {
     "language": "Git",
     "website": "https://git-scm.com/",
-    "logo": "/git_logo.png"
+    "logo": "/git_logobw.png"
   }
 ]
