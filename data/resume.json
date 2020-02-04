@@ -1,0 +1,236 @@
+{
+  "basics": {
+    "name": "Justin Arata",
+    "label": "Programmer",
+    "picture": "",
+    "email": "jarata@gmail.com",
+    "phone": "(408) 676-6282",
+    "website": "http://justinarata.me",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "123 Any Street",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Justin Arata",
+        "url": "https://www.linkedin.com/in/justin-arata/"
+      },
+      {
+        "network": "GitHub",
+        "username": "jarata",
+        "url": "https://github.com/jarata"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Sure Fire Protection Co. Inc.",
+      "position": "Administrative Assistant",
+      "website": "https://www.surefireprotection.com/",
+      "startDate": "2016-06-01",
+      "endDate": "2017-09-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "Testarossa Vineyards",
+      "position": "Tasting Room Associate",
+      "website": "https://www.testarossa.com/",
+      "startDate": "2015-06-01",
+      "endDate": "2015-09-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "Lululemon Athletica",
+      "position": "Educator",
+      "website": "https://shop.lululemon.com/",
+      "startDate": "2014-11-01",
+      "endDate": "2015-02-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "Sure Fire Protection Co. Inc.",
+      "position": "Fire Tech Apprentice",
+      "website": "https://www.surefireprotection.com/",
+      "startDate": "2014-11-01",
+      "endDate": "2015-02-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    },
+    {
+      "company": "Best Buy",
+      "position": "Customer Service Specialist",
+      "website": "https://www.bestbuy.com/",
+      "startDate": "2010-11-01",
+      "endDate": "2011-02-01",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "highlights": [
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lambda School",
+      "area": "Web Development & Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2018-10-01",
+      "endDate": "2020-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    },
+    {
+      "institution": "Mission College",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2012-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    },
+    {
+      "institution": "Cabrillo College",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2010-01-01",
+      "endDate": "2011-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    },
+    {
+      "institution": "The Art Institute of Las Vegas",
+      "area": "Culinary Arts Management",
+      "studyType": "Bachelor",
+      "startDate": "2008-01-01",
+      "endDate": "2009-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    },
+    {
+      "institution": "De Anza College",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2006-01-01",
+      "endDate": "2008-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Junior",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Less",
+        "Javascript",
+        "React",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Junior",
+      "keywords": [
+        "Node",
+        "Express",
+        "Postgres",
+        "Python",
+        "SQLite"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Junior",
+      "keywords": [
+        "Heroku",
+        "Netlify",
+        "Github",
+        "Zeit"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Hiking",
+        "Camping",
+        "Climbing"
+      ]
+    },
+    {
+      "name": "Culinary",
+      "keywords": [
+        "Cooking",
+        "Baking",
+        "Smoking",
+        "Barbecuing",
+        "Ethnic Cuisine",
+        "Ketogenic"
+      ]
+    },
+    {
+      "name": "Traveling",
+      "keywords": [
+        "Backpacking"
+      ]
+    },
+    {
+      "name": "Media",
+      "keywords": [
+        "Movies",
+        "Documentaries",
+        "TV Series",
+        "Foreign"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
