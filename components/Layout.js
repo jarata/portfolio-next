@@ -1,11 +1,12 @@
-import Footer from "./Footer";
+// Components
 import Nav from "./Nav";
 import Head from "./Head";
+import Footer from "./Footer";
 
 const Layout = (props) => {
 	console.log("Layout:", props);
 	return (
-		<div>
+		<div className="layout">
 			<Head />
 			<Nav />
 			{props.children}
