@@ -1,5 +1,4 @@
 const Footer = () => {
-	console.log("Footer:");
 	return (
 		<footer>
 			<span>Copyright © 2018-{new Date().getFullYear()}</span>

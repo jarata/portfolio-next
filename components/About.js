@@ -2,10 +2,9 @@ const About = () => {
 	return (
 		<main id="about">
 			<h1>About Me</h1>
-			<p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
-			<h2>Some other title</h2>
-			<p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM</p>
-			<p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
+			<p>
+				I am a full stack dev with a penchant for knowledge and a drive to learn new things. I am highly adapatable and believe that my past experiences have taught me how to process concepts into layman terms so that I can better help others to understand things. My goal is to continue to hone my craft and further my own skills so that I may better impact the industry.
+			</p>
 		</main>
 	)
 };
