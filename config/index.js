@@ -1,3 +1,3 @@
 const dev = process.env.NODE_ENV !== 'production';
 
-export const server = dev ? 'http://localhost:3000' : 'https://portfolio-next.jarata.now.sh ';
+export const server = dev ? 'http://localhost:3000' : 'https://portfolio-next-llwjaxur4.now.sh';
