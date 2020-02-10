@@ -1,0 +1,26 @@
+#skills {
+  background: @darkshades;
+  h1 {
+    color: @lightshades;
+  }
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+.skill-card {
+  background: @lightaccent;
+  border-radius: 15px;
+  max-width: 8em;
+  margin: 3% 0;
+  @media @tablet {
+    max-width: 10em;
+  }
+  a {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

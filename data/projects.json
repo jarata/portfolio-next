@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Smith & Jones Architects",
+    "desc": "This was a project for a mock architectural firm that incorporated responsive web design, pre-processors, and DOM.",
+    "stack": [
+      "HTML",
+      "CSS",
+      "Less"
+    ],
+    "deployed_url": "https://smithjones.netlify.com/",
+    "repo_url": "https://github.com/jarata/User-Interface-Project-Week",
+    "highlights": [
+      "Project was built solo over the course of 1 week",
+      "Solely responsible for implementation of markup and styling design",
+      "Utilized Less compiler to add mixins for all device sizes"
+    ]
+  },
+  {
+    "title": "Wunderlist 2.0 API",
+    "desc": "This project was a database based off of the Wunderlist task management app.",
+    "stack": [
+      "Node",
+      "Express",
+      "Postgres",
+      "SQLite",
+      "JWT"
+    ],
+    "deployed_url": "https://wunderlist-buildweek.herokuapp.com/",
+    "repo_url": "https://github.com/wunderlist-2-0/Back_End",
+    "highlights": [
+      "Collaborated remotely with a team of 3 Web Developers over 1 week",
+      "Solely responsible for building out the backend endpoints and deployment",
+      "Utilized JSON Web Tokens and bcrypt to handle authorization"
+    ]
+  }
+]

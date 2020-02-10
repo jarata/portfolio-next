@@ -1,0 +1,46 @@
+#contact {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    color: @darkshades;
+  }
+  @media @tablet {
+    padding-bottom: 160px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    background: @darkestshade;
+    padding: 5%;
+    border-radius: 15px;
+    @media @tablet {
+      font-size: 1.6em;
+    }
+    p {
+      color: @lightshades;
+      padding: 2% 0;
+    }
+    label {
+      display: flex;
+      flex-direction: column;
+      color: @lightshades;
+      padding: 2% 0;
+    }
+    input {
+      border: 3px solid @main;
+      padding: 3%;
+    }
+    textarea {
+      border: 3px solid @main;
+      padding: 3%;
+    }
+    button {
+      margin: 4% 0;
+      color: @lightshades;
+      background: @primary;
+      border-radius: 10px;
+      padding: 3%;
+    }
+  }
+}
