@@ -11,7 +11,6 @@ import Contact from "../components/Contact";
 import Projects from "../components/Projects";
 
 const Index = (props) => {
-	console.log("Index:", props.skills, props.resume, props.projects);
 	return (
 		<Layout>
 			<Banner />
