@@ -2,14 +2,13 @@ const SkillCard = (props) => {
 	return (
 		<div className="skill-card">
 			<a href={props.skl.website} target="_blank">
-				<img src={props.skl.logo} alt={props.skl.language}/>
+				<img src={props.skl.logo} alt={`${props.skl.language} Logo`}/>
 			</a>
 		</div>
 	)
 };
 
 const Skills = (props) => {
-	console.log("Skills:", props.skills);
 	return (
 		<section id="skills">
 			<h1>Skills</h1>

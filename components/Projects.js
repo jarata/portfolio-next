@@ -3,9 +3,9 @@ const ProjectCard = (props) => {
 		<div className="project-card">
 			<h3>{props.prj.title}</h3>
 			<p>{props.prj.desc}</p>
-			<div>
-				{props.prj.stack.map(stk => (<span key={stk}>{stk}</span>))}
-			</div>
+			<ol>
+				{props.prj.stack.map(stk => (<li key={stk}>{stk}</li>))}
+			</ol>
 			<ul>
 				{props.prj.highlights.map(hgl => (<li key={hgl}>{hgl}</li>))}
 			</ul>
