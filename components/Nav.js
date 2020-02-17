@@ -1,24 +1,14 @@
-import Link from 'next/link';
-
 const Nav = () => {
 	return (
 		<header>
-			<Link href="/">
-				<h1>LOGO</h1>
-			</Link>
+			<a href="#banner">
+				<h1>JA</h1>
+			</a>
 			<nav>
-				<Link href="#about">
-					<a>About Me</a>
-				</Link>
-				<Link href="#skills">
-					<a>Skills</a>
-				</Link>
-				<Link href="#projects">
-					<a>Projects</a>
-				</Link>
-				<Link href="#contact">
-					<a>Contact</a>
-				</Link>
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="#contact">Contact</a>
 			</nav>
 		</header>
 	)
