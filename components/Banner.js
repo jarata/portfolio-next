@@ -1,9 +1,9 @@
 const Banner = () => {
 	return (
-		<div className="banner">
-			<img src="/code_banner.jpg"/>
-			<h1>Hello, I'm Justin Arata</h1>
+		<div id="banner">
+			<h1>Hi. I'm Justin Arata.</h1>
 			<h3>Full Stack Engineer</h3>
+			<img src="/29116.jpg" alt="Banner Image"/>
 		</div>
 	)
 };
