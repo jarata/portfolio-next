@@ -1,9 +1,14 @@
+import {useState} from 'react';
+
 const Nav = () => {
+	// const [hideNav, setHideNav] = useState(false);
+	// const [showNav, setShowNav] = useState(false);
+	//
+	// const shadowStyle = showNav ? 'shadow' : '';
+	// const hiddenStyle = hideNav ? 'hidden' : '';
 	return (
+		// <header className={`header ${scrollStyle} ${shadowStyle}`}>
 		<header>
-			<a href="#banner">
-				<h1>JA</h1>
-			</a>
 			<nav>
 				<a href="#about">About</a>
 				<a href="#skills">Skills</a>

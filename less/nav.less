@@ -4,25 +4,23 @@ header {
   position: fixed;
   bottom: 0;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background: @lightaccent;
-  padding: 1rem 0;
+  padding: 1em 0;
+  z-index: 1;
   @media @tablet {
     bottom: initial;
-    position: fixed;
-  }
-  h1 {
-    flex: 1 1 auto;
   }
   nav {
-    flex: 1 1 auto;
     display: flex;
+    flex: 1 1 auto;
     justify-content: space-around;
     a {
-      font-size: 1.1rem;
+      font-size: 1.2em;
       text-decoration: none;
+      color: @lightshades;
+      &:hover {
+        color: @darkaccent;
+      }
     }
   }
 }
