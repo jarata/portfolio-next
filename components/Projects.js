@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
 			<ul>
 				{props.prj.highlights.map(hgl => (<li key={hgl}>{hgl}</li>))}
 			</ul>
-			<a href={props.prj.repo_url} target="_blank">Github Repo</a>
+			<a className="project-repo" href={props.prj.repo_url} target="_blank">Github Repo</a>
 		</div>
 	)
 };
@@ -25,7 +25,7 @@ const Projects = (props) => {
 	return (
 		<section id="projects">
 			<h1>Projects</h1>
-			<ul>
+			<ul className="project-cards">
 				{props.projects.map(prj => (<ProjectCard key={prj.title} prj={prj}/>))}
 			</ul>
 		</section>

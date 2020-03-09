@@ -1,18 +1,20 @@
 // Projects
 #projects {
   h1 {
-    color: @darkaccent;
+    //color: @darkaccent;
   }
-  ul {
+  .project-cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     .project-card {
       background: @darkaccent;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      max-width: 40%;
       margin: 1em;
-      padding: 2em 4em;
+      padding: 2em 2em;
       h3 {
         text-align: center;
         a {
@@ -32,7 +34,9 @@
         }
       }
       .project-img {
-        padding: 2em;
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 1em;
         img {
           width: 100%;
         }
@@ -43,6 +47,7 @@
       ul {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         margin: .5em 0;
         li {
           list-style-type: square;
@@ -51,8 +56,9 @@
           margin: .5em 0;
         }
       }
-      a {
+      .project-repo {
         color: @lightshades;
+        font-size: 1.4em;
       }
     }
   }
