@@ -51,7 +51,7 @@ const Contact = () => {
 					name="fname"
 					onChange={onNameChange}
 				/>
-				<label htmlFor="email">Email:</label>
+				<label htmlFor="email">Email</label>
 				<input
 					// id="email"
 					// type="email"
@@ -65,7 +65,7 @@ const Contact = () => {
 					name="email"
 					onChange={onMailChange}
 				/>
-				<label htmlFor="message">Message:</label>
+				<label htmlFor="message">Message</label>
 				<textarea
 					// id="message"
 					// name="message"

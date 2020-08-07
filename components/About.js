@@ -3,7 +3,13 @@ const About = () => {
 		<main id="about">
 			<h1>About Me</h1>
 			<p>
-				I am a full stack dev with a penchant for knowledge and a drive to learn new things. I am highly adapatable and believe that my past experiences have taught me how to process concepts into layman terms so that I can better help others to understand things. My goal is to continue to hone my craft and further my own skills so that I may better impact the industry.
+				I can clean your webcode! Let me help your sites load fast, secure, and easier for any engineer to work on your front-end and back-end. As a growth minded developer, I will be responsive to the requirements of projects.
+				<br/>
+				<br/>
+				My current strengths focus on full stack web engineering, but learning new languages is a great opportunity to grow alongside your projects.
+				<br/>
+				<br/>
+				With a background in sales and construction, I am comfortable delivering web product knowledge to roles of all levels. I add value to diverse teams by ensuring visibility and education of newly implemented web tools.
 			</p>
 		</main>
 	)
