@@ -17,10 +17,9 @@ const Contact = () => {
 	const onFormContentChange = (event) => {
 		setContent(event.target.value)
 	}
-	console.log("name:",name);
 	const submitContactForm = async (event) => {
 		event.preventDefault();
-		const recipientMail = process.env.EMAIL_CONTACT;
+		const recipientMail = process.env.NEXT_PUBLIC_EMAIL_CONTACT;
 		const res = await sendContactMail(recipientMail, name, senderMail, content);
 		if (res.status < 300) {
 			setFormButtonDisabled(true);
@@ -39,41 +38,24 @@ const Contact = () => {
 				<p>Interested in more? Have a question? Send me a message and I will respond as soon as possible.</p>
 				<label htmlFor="name">Name:</label>
 				<input
-					// id="name"
-					// type="text"
-					// name="name"
-					// value={contactMsg.name}
-					// onChange={(e) => setContactMsg({ ...contactMsg, name: e.target.value })}
-					// placeholder="Enter you name here..."
+					placeholder="Enter you name here..."
 					type="text"
-					placeholder="Name"
 					value={name}
 					name="fname"
 					onChange={onNameChange}
 				/>
 				<label htmlFor="email">Email</label>
 				<input
-					// id="email"
-					// type="email"
-					// name="email"
-					// value={contactMsg.sender}
-					// onChange={(e) => setContactMsg({ ...contactMsg, sender: e.target.value })}
-					// placeholder="Enter your email here..."
+					placeholder="Enter your email here..."
 					type="email"
-					placeholder="E-Mail"
 					value={senderMail}
 					name="email"
 					onChange={onMailChange}
 				/>
 				<label htmlFor="message">Message</label>
 				<textarea
-					// id="message"
-					// name="message"
-					// value={contactMsg.content}
-					// onChange={(e) => setContactMsg({ ...contactMsg, content: e.target.value })}
-					// placeholder="Enter your message here..."
+					placeholder="Enter your message here..."
 					name="text"
-					placeholder="Message"
 					value={content}
 					onChange={onFormContentChange}
 				/>
