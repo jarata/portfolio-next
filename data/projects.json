@@ -1,6 +1,7 @@
 [
   {
     "title": "Smith & Jones Architects",
+    "image": "/sjarchitects.jpg",
     "desc": "This was a project for a mock architectural firm that incorporated responsive web design, pre-processors, and DOM.",
     "stack": [
       "HTML",
@@ -17,6 +18,7 @@
   },
   {
     "title": "Wunderlist 2.0 API",
+    "image": "/wunderlist.jpg",
     "desc": "This project was a database based off of the Wunderlist task management app.",
     "stack": [
       "Node",
@@ -31,6 +33,22 @@
       "Collaborated remotely with a team of 3 Web Developers over 1 week",
       "Solely responsible for building out the backend endpoints and deployment",
       "Utilized JSON Web Tokens and bcrypt to handle authorization"
+    ]
+  },
+  {
+    "title": "NASA Astronomy Picture of the Day",
+    "image": "/nasa.jpg",
+    "desc": "This project was built out using data that was pulled from NASA's API, then rendered onto components with React",
+    "stack": [
+      "React",
+      "Styled Components"
+    ],
+    "deployed_url": "https://nasa-photo-of-the-day-mauve.now.sh/",
+    "repo_url": "https://github.com/jarata/nasa-photo-of-the-day",
+    "highlights": [
+      "Built out solo over the course of 1 day",
+      "Responsible for generating own API token and pulling data",
+      "Utilized Styled Components for in JS styling"
     ]
   }
 ]

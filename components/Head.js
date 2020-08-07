@@ -1,4 +1,5 @@
-import NextHead from 'next/head'
+import React from "react";
+import NextHead from "next/head";
 
 const Header = (props) => {
 	return (
@@ -31,9 +32,10 @@ const Header = (props) => {
 			for both web and mobile devices." />
 			<meta name="twitter:image" content="https://justinarata.com/fb-tw-img.png" />
 			<meta name="twitter:image:alt" content="A simple JA to represent the portfolio owner" />
-			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+			<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"/>
 			<link rel="manifest" href="/site.webmanifest"/>
 		</NextHead>
 	)

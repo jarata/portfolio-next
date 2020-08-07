@@ -1,24 +1,19 @@
-import Link from 'next/link';
+import {useState} from 'react';
 
 const Nav = () => {
+	// const [hideNav, setHideNav] = useState(false);
+	// const [showNav, setShowNav] = useState(false);
+	//
+	// const shadowStyle = showNav ? 'shadow' : '';
+	// const hiddenStyle = hideNav ? 'hidden' : '';
 	return (
+		// <header className={`header ${scrollStyle} ${shadowStyle}`}>
 		<header>
-			<Link href="/">
-				<h1>LOGO</h1>
-			</Link>
 			<nav>
-				<Link href="#about">
-					<a>About Me</a>
-				</Link>
-				<Link href="#skills">
-					<a>Skills</a>
-				</Link>
-				<Link href="#projects">
-					<a>Projects</a>
-				</Link>
-				<Link href="#contact">
-					<a>Contact</a>
-				</Link>
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="#contact">Contact</a>
 			</nav>
 		</header>
 	)
