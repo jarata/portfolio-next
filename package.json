@@ -1,7 +1,7 @@
 {
   "name": "portfolio-next",
   "version": "1.0.0",
-  "description": "Portfolio built using Next.js",
+  "description": "Portfolio built using Next.js, and Less styling.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
