@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
 			<ul>
 				{props.prj.highlights.map(hgl => (<li key={hgl}>{hgl}</li>))}
 			</ul>
-			<a className="project-repo" href={props.prj.repo_url} target="_blank">Github Repo</a>
+			<a className="project-repo" href={props.prj.repo_url} target="_blank" rel="noopener">Github Repo</a>
 		</div>
 	)
 };
