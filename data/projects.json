@@ -50,5 +50,19 @@
       "Responsible for generating own API token and pulling data",
       "Utilized Styled Components for in JS styling"
     ]
+  },
+  {
+    "title": "Class 5 Fitness & Rehab",
+    "image": "/class5.jpg",
+    "desc": "This project is for a redesign of Class 5 Fitness & Rehab, located in Sonora,CA. The current website http://www.24-7at5.com/",
+    "stack": [
+      "Next.js",
+      "Sass"
+    ],
+    "deployed_url": "#",
+    "repo_url": "#",
+    "highlights": [
+      "Project still in progress"
+    ]
   }
 ]
