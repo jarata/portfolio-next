@@ -1,13 +1,14 @@
-// Components
-import Nav from "./Nav";
-import Head from "./Head";
+/*
+	Layout
+ */
+import React from "react";
+import Meta from "./Meta";
 import Footer from "./Footer";
 
 const Layout = (props) => {
 	return (
-		<div className="layout">
-			<Head />
-			<Nav />
+		<div className="layout-wrapper">
+			<Meta />
 			{props.children}
 			<Footer />
 		</div>

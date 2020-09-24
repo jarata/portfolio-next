@@ -1,16 +1,27 @@
-#about {
-  text-align: center;
-  max-width: 1024px;
-  margin: 0 auto;
+/*
+  About
+ */
+
+.about-wrapper {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow:1px 5px 10px 0px black;
+  background: @color2;
+  z-index: 5;
   h1 {
-    //color: @darkaccent;
+    padding-bottom: 1rem;
   }
-  p {
-    //color: @darkaccent;
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    p {
+      padding-bottom: 1rem;
+    }
+    .about-img {
+      border-radius: 50%;
+      max-width: 100%;
+      filter: sepia(70%);
+    }
   }
-  //img {
-  //  border: 1px solid red;
-  //  border-radius: 50%;
-  //  width: 100%;
-  //}
 }

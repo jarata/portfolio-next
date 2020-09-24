@@ -1,6 +1,11 @@
+/*
+	Banner
+ */
+import React from "react";
+
 const Banner = () => {
 	return (
-		<div id="banner">
+		<div className="banner-wrapper">
 			<img src="/hero_banner.png" alt="Banner Image"/>
 		</div>
 	)

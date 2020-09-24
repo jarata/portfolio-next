@@ -1,68 +1,56 @@
-// Projects
-#projects {
+/*
+  Projects
+ */
+
+.projects-wrapper {
+  box-shadow:1px 5px 10px 0px black;
+  z-index: 4;
   h1 {
-    //color: @darkaccent;
+    padding: 1rem;
   }
   .project-cards {
-    border: 1px solid red;
-    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 1rem;
     .project-card {
-      border: 1px solid orange;
-      box-sizing: border-box;
-      background: @darkaccent;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background: @color1;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      //max-width: 50%;
-      margin: 1em;
-      padding: 2em;
-      h3 {
-        text-align: center;
-        a {
-          color: @lightshades;
-        }
-      }
-      ol {
+      margin-bottom: 1rem;
+      z-index: 3;
+      box-shadow:1px 5px 10px 0px black;
+      .project-card-content {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 1em;
-        li {
-          color: @lightshades;
-          padding: 0 .5em;
-          list-style-type: disc;
-          list-style-position: inside;
+        flex-direction: column;
+        padding: 1rem;
+        h3 {
+          a {
+            text-decoration: none;
+          }
+        }
+        .project-stack {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          padding: .5rem;
+        }
+        .project-desc {
+          margin-bottom: .5rem;
+        }
+        .project-highlights {
+          li {
+            margin-bottom: .5rem;
+          }
+        }
+        .project-repo {
+          text-decoration: none;
         }
       }
       .project-img {
-        max-width: 60%;
-        margin: 0 auto;
-        padding: 1em;
-        img {
-          width: 100%;
-        }
-      }
-      p {
-        color: @lightshades;
-      }
-      ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        margin: .5em 0;
-        li {
-          list-style-type: square;
-          list-style-position: inside;
-          color: @lightshades;
-          margin: .5em 0;
-        }
-      }
-      .project-repo {
-        color: @lightshades;
-        font-size: 1.4em;
+        width: 100%;
       }
     }
   }
