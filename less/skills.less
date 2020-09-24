@@ -1,40 +1,27 @@
-// Skills
-#skills {
-  background-color: @darkshades;
-  background-image: url("/mountain.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  //background-size: contain;
-  min-height: 60vh;
+/*
+  Skills
+ */
+
+.skills-wrapper {
+  background: @color4;
+  padding: 1rem;
+  box-shadow:1px 5px 10px 0px black;
+  z-index: 4;
   h1 {
-	color: @lightshades;
+	padding: 2rem 1rem 1rem 1rem;
   }
-  ul {
+  .skill-cards {
+	margin: 1rem;
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
-	max-width: 1024px;
-	margin: 0 auto;
+	justify-content: space-between;
 	.skill-card {
-	  background: @darkaccent;
-	  padding: 1.5em;
-	  margin: 2%;
-	  border-radius: 1em;
 	  box-sizing: border-box;
+	  width: 30%;
+	  padding: .1rem;
+	  filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(16%) hue-rotate(63deg) brightness(94%) contrast(103%);
 	  a {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: center;
-		text-decoration: none;
-		width: 5em;
-		height: 5em;
 		img {
-		  width: 100%;
-		  filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(16%) hue-rotate(63deg) brightness(94%) contrast(103%);
-		}
-		p {
-		  color: @lightshades;
 		}
 	  }
 	}

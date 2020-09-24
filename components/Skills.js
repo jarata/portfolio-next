@@ -1,9 +1,12 @@
+/*
+	Skills
+ */
+
 const SkillCard = (props) => {
 	return (
 		<div className="skill-card">
 			<a href={props.skl.website} target="_blank">
 				<img src={props.skl.logo} alt={`${props.skl.language} Logo`} />
-				<p>{props.skl.language}</p>
 			</a>
 		</div>
 	)
@@ -11,9 +14,9 @@ const SkillCard = (props) => {
 
 const Skills = (props) => {
 	return (
-		<section id="skills">
+		<section className="skills-wrapper">
 			<h1>Skills</h1>
-			<ul>
+			<ul className="skill-cards">
 				{props.skills.map(skl => (
 					<SkillCard key={skl.language} skl={skl}/>
 				))}

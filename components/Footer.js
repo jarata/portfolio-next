@@ -1,3 +1,7 @@
+/*
+	Footer
+ */
+
 const Footer = () => {
 	return (
 		<footer>
