@@ -9,19 +9,43 @@
   box-shadow:1px 5px 10px 0px black;
   background: @color2;
   z-index: 5;
+  @media @tablet {
+    padding: 5rem;
+  }
+  @media @desktop {
+    padding: 3rem 16rem 5rem 16rem;
+    margin: 0 auto;
+  }
   h1 {
-    padding-bottom: 1rem;
+    padding: 1rem 0;
   }
   .about-content {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 1rem;
+    @media @tablet {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    @media @desktop {
+      justify-content: space-around;
+    }
     p {
       padding-bottom: 1rem;
+      @media @tablet {
+        width: 45%;
+      }
     }
     .about-img {
       border-radius: 50%;
       max-width: 100%;
-      filter: sepia(70%);
+      @media @tablet {
+        width: 45%;
+      }
+      @media @desktop {
+        width: 25%;
+      }
     }
   }
 }
